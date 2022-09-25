@@ -1,0 +1,86 @@
+﻿
+@using MealMonkey.Models;
+@model dynamic
+
+@{
+    ViewBag.Title = "CartTable";
+}
+@{decimal total = 0; }
+
+
+<h2>CartTable</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Product Name
+
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            Amount
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (MM_Carts item in Model.Carts)
+    {
+        decimal price = 0;
+        decimal totalPrice = 0;
+
+
+        <tr>
+
+
+
+            @{
+                foreach (var items in Model.Products)
+                {
+                    if (items.ProductId == item.ProductId)
+                    {
+                        <td>@items.Name</td>
+                    }
+                }
+            }
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+
+            @{
+                foreach (MM_Products items in Model.Products)
+                {
+                    if (items.ProductId == item.ProductId)
+                    {
+                        price = (decimal)items.Price;
+                        totalPrice = (decimal)(price * item.Quantity);
+                        total = total + totalPrice;
+                        <td>@price</td>
+
+                        <td>@totalPrice</td>
+                    }
+
+                }
+            }
+
+
+
+            <td>
+                @*@Html.ActionLink("Edit", "EditCart", new { id = item.CartId }) |
+                @Html.ActionLink("Details", "CartDetails", new { id = item.CartId }) |*@
+                @Html.ActionLink("Delete", "CartDelete", new { id = item.CartId })
+            </td>
+        </tr>
+
+    }
+
+
+
+</table>
+<h3>Total Amount To be Paid: @total</h3>

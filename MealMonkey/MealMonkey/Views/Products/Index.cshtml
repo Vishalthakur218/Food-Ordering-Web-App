@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MealMonkey.Models.MM_Products>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>What You Want to Eat today</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+
+
+<div style="display: flex; flex-wrap:wrap; width:fit-content">
+    <!-- Content here -->
+
+    @foreach (var item in Model)
+    {
+
+        <div class="card" style="display: flex; flex-direction:column; justify-content: space-between";>
+            <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" style="width: 270px;" alt="...">
+            <div class="card-body" style="align-items:center">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+
+                <p class="card-text">₹  @Html.DisplayFor(modelItem => item.Price)</p>
+                @Html.ActionLink("Order Now", "Details", new { id = item.ProductId })
+            </div>
+        </div>
+
+
+
+
+
+        @*<tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
+                </td>
+            </tr>*@
+    }
+</div>
+
+@*</table>*@
