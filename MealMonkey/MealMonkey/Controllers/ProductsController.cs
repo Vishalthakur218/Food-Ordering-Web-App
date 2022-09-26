@@ -182,31 +182,6 @@ namespace MealMonkey.Controllers
                         mdb.SaveChanges();
                     }
 
-                    //// Database context
-                    //EntitiesContext _ent = new EntitiesContext(connString);
-                    //// Select all the records to be deleted
-                    //IEnumerable<entity> list = _ent.entity.where(x => x.id == id).toList();
-                    //// Use Remove Range function to delete all records at once
-                    //_ent.entity.RemoveRange(list);
-                    //// Save changes
-                    //db.SaveChanges();
-
-                    //IEnumerable<MM_Carts> dList = mdb.MM_Carts.
-                    //    Where(x => x.ProductId.ToString() == (string)Session["UserId"]).ToList();
-                    //mdb.MM_Carts.RemoveRange(dList);
-                    //mdb.SaveChanges();
-                    //----------------------------
-
-                    //var deleteCart = from d in mdb.MM_Carts
-                    //                 let v = d.UserId.ToString()
-                    //                 where v == (string) Session["UserId"]
-                    //                 select d;
-                    //mdb.MM_Carts.Remove(deleteCart);
-                    //8888888888888888888888888888888888888888888888888888888888888888888
-
-
-                    //Delete all data from cart
-
                 }
             }
             return RedirectToAction("OrderList");
