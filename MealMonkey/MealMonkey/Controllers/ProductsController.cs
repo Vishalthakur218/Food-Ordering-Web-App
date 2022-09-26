@@ -175,6 +175,12 @@ namespace MealMonkey.Controllers
 
                     mdb.MM_Orders.Add(temp);
                     mdb.SaveChanges();
+                    while (mdb.MM_Carts.Where(x => x.UserId== K).Count() != 0)
+                    {
+                        var t = mdb.MM_Carts.Where(x => x.UserId == K).FirstOrDefault();
+                        mdb.MM_Carts.Remove(t);
+                        mdb.SaveChanges();
+                    }
 
                     //// Database context
                     //EntitiesContext _ent = new EntitiesContext(connString);
