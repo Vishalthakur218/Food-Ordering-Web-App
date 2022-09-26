@@ -22,10 +22,10 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index()
         {
-            TempData["UserId"] = 33; // Fake Hardcoded userid
+            TempData["UserId"] = 34; // Fake Hardcoded userid
             //TempData["UserId"] = User.Identity.GetUserId();
 
-            Session["UserId"] = TempData["UserId"];
+            Session["UserId"] = 34;
             return View(db.MM_Products.ToList());
 
         }
@@ -211,12 +211,12 @@ namespace MealMonkey.Controllers
         public ActionResult OrderList()
         {
 
-            var k = Session["UserId"];
+            int k = Convert.ToInt32(Session["UserId"]);
             IEnumerable<MM_Orders> Orders = mdb.MM_Orders.ToList();
             IEnumerable<MM_Products> Product = db.MM_Products.ToList();
 
             IEnumerable <OrderRes> OrderList = Orders
-                .Where(u => u.UserId == 33)
+                .Where(u => u.UserId == k)
                 .GroupBy(o => new { o.OrderNo, o.UserId,o.PaymentId,o.Status})
                 .Select(p => new OrderRes
                 {
