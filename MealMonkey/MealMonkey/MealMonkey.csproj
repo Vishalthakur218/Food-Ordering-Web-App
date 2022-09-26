@@ -221,6 +221,7 @@
     <Compile Include="Models\MM_User.cs">
       <DependentUpon>CartModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\OrderRes.cs" />
     <Compile Include="Models\ProductModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -337,6 +338,7 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\CartTable.cshtml" />
     <Content Include="Views\Products\EditCart.cshtml" />
+    <Content Include="Views\Products\OrderList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

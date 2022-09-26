@@ -4,6 +4,7 @@
 
 @{
     ViewBag.Title = "CartTable";
+
 }
 @{decimal total = 0; }
 
@@ -37,8 +38,6 @@
 
         <tr>
 
-
-
             @{
                 foreach (var items in Model.Products)
                 {
@@ -64,6 +63,7 @@
                         <td>@price</td>
 
                         <td>@totalPrice</td>
+                        //ViewBag.TotalAmount = @totalPrice;
                     }
 
                 }
@@ -73,14 +73,16 @@
 
             <td>
                 @*@Html.ActionLink("Edit", "EditCart", new { id = item.CartId }) |
-                @Html.ActionLink("Details", "CartDetails", new { id = item.CartId }) |*@
+                    @Html.ActionLink("Details", "CartDetails", new { id = item.CartId }) |*@
                 @Html.ActionLink("Delete", "CartDelete", new { id = item.CartId })
             </td>
         </tr>
 
-    }
+                }
 
 
 
 </table>
 <h3>Total Amount To be Paid: @total</h3>
+@{ Session["Amount"] = total;}
+    @Html.ActionLink("Complete Order", "CartToOrder", "Products", new { @class = "btn btn-primary" })

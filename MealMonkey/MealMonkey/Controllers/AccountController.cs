@@ -392,6 +392,7 @@ namespace MealMonkey.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
+            Session.RemoveAll();
             return RedirectToAction("Index", "Home");
         }
 

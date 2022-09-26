@@ -22,5 +22,6 @@ namespace MealMonkey.Models
         public string Status { get; set; }
         public Nullable<int> PaymentId { get; set; }
         public Nullable<System.DateTime> OrderDate { get; set; }
+        //public Nullable<decimal> Amount { get; set; }
     }
 }

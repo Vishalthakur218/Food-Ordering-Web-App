@@ -22,9 +22,15 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index()
         {
+            TempData["UserId"] = 33; // Fake Hardcoded userid
+            //TempData["UserId"] = User.Identity.GetUserId();
+
+            Session["UserId"] = TempData["UserId"];
             return View(db.MM_Products.ToList());
+
         }
 
+        [Authorize]
         // GET: Products/Details/5
         public ActionResult Details(int? id)
         {
@@ -38,11 +44,10 @@ namespace MealMonkey.Controllers
                 return HttpNotFound();
             }
             TempData["ProductId"] = id;
-            //TempData["UserId"] = User.Identity.GetUserId();
-            TempData["UserId"] = 33;
+
             return View(mM_Products);
         }
-
+        [Authorize]
         // GET: Products/Create
         public ActionResult Create()
         {
@@ -53,6 +58,7 @@ namespace MealMonkey.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ProductId,Name,Description,Price,Quantity,ImageUrl,CategoryId,IsActive,CreatedDate")] MM_Products mM_Products)
         {
@@ -65,35 +71,36 @@ namespace MealMonkey.Controllers
 
             return View(mM_Products);
         }
-
+        [Authorize]
         public ActionResult CartTable()
         {
             dynamic dy = new ExpandoObject();
             dy.Carts = getCarts();
             dy.Products = getProducts();
 
-
-
-  
-
             return View(dy); 
         }
         //Helping Methods
-        public List<MM_Carts> getCarts()
+        public IEnumerable<MM_Carts> getCarts()
         {
-            List<MM_Carts> Carts = mdb.MM_Carts.ToList();
-            return Carts;
+            int K = Convert.ToInt32(Session["UserId"]);
+            IEnumerable<MM_Carts> Carts = mdb.MM_Carts.ToList();
+            var FilteredResult = from s in Carts where s.UserId == K select s;
+
+            return FilteredResult;
 
         }
         public List<MM_Products> getProducts()
         {
             List<MM_Products> Products = db.MM_Products.ToList();
+
             return Products;
 
         }
         //Edit Converted to cart
         // GET: Products/Cart/5
 
+        [Authorize]
         //Create cart
         public ActionResult Cart(int? id)
         {
@@ -104,6 +111,7 @@ namespace MealMonkey.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public ActionResult Cart([Bind(Include ="Cartid,Productid,Quantity,UserId")] MM_Carts mM_Carts)
         {
@@ -113,7 +121,7 @@ namespace MealMonkey.Controllers
             if (ModelState.IsValid)
             {
                 temp.ProductId = Convert.ToInt32( TempData["ProductId"]);
-                temp.UserId = Convert.ToInt32(TempData["UserId"] );
+                temp.UserId = Convert.ToInt32(Session["UserId"] );
                 temp.CartId = mM_Carts.CartId;
                 temp.Quantity = mM_Carts.Quantity;
                 
@@ -127,6 +135,7 @@ namespace MealMonkey.Controllers
 
             return View(mM_Carts);
         }
+        [Authorize]
         // GET: Products/CartDelete/5
         public ActionResult CartDelete(int? id)
         {
@@ -136,30 +145,78 @@ namespace MealMonkey.Controllers
             return RedirectToAction("CartTable");
             
         }
-        // GET: Products/Delete/5
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            MM_Products mM_Products = db.MM_Products.Find(id);
-            if (mM_Products == null)
-            {
-                return HttpNotFound();
-            }
-            return View(mM_Products);
-        }
 
-        // POST: Products/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult CartToOrder()
         {
-            MM_Products mM_Products = db.MM_Products.Find(id);
-            db.MM_Products.Remove(mM_Products);
-            db.SaveChanges();
+
+            int K = Convert.ToInt32(Session["UserId"]);
+            IEnumerable<MM_Carts> Carts = mdb.MM_Carts.ToList();
+            var FilteredResult = from s in Carts where s.UserId == K select s;
+            String Oid = Guid.NewGuid().ToString();
+
+            foreach (var items in FilteredResult)
+            {
+                MM_Orders temp = new MM_Orders();
+                //var k = ViewBag.TotalAmount;
+
+                temp.ProductId = items.ProductId;
+                temp.Quantity = items.Quantity;
+                temp.OrderDate = DateTime.Now;
+                temp.UserId = items.UserId;
+                temp.Status = "Order Created";
+                temp.PaymentId = Convert.ToInt32(Session["Amount"]);//Doubtful
+                temp.OrderNo =  Oid;
+                //temp.Amount = k;
+
+
+
+                if (ModelState.IsValid)
+                {
+
+                    mdb.MM_Orders.Add(temp);
+                    mdb.SaveChanges();
+
+                    var deleteCart = from d in mdb.MM_Carts
+                                     let v = d.UserId.ToString()
+                                     where v == (string) Session["UserId"]
+                                     select d;
+                    //mdb.MM_Carts.Remove(deleteCart);
+   //8888888888888888888888888888888888888888888888888888888888888888888
+
+
+                    //Delete all data from cart
+
+                }
+            }
             return RedirectToAction("Index");
+
+            //return View();
+
+        }
+        public ActionResult OrderList()
+        {
+
+            var k = Session["UserId"];
+            IEnumerable<MM_Orders> Orders = mdb.MM_Orders.ToList();
+            IEnumerable<MM_Products> Product = db.MM_Products.ToList();
+
+            IEnumerable <OrderRes> OrderList = Orders
+                .Where(u => u.UserId == 33)
+                .GroupBy(o => new { o.OrderNo, o.UserId,o.PaymentId,o.Status})
+                .Select(p => new OrderRes
+                {
+                    OrderNo = p.Key.OrderNo,
+                    Quantity = (int)p.Sum(t => t.Quantity),
+                    Count = p.Count(),
+                    PaymentId = (int)p.Key.PaymentId,
+                    Status = (string)p.Key.Status
+                    
+
+                }).ToList();
+            
+            //var z = OrderList;
+            return View(OrderList);
+
         }
 
         protected override void Dispose(bool disposing)
