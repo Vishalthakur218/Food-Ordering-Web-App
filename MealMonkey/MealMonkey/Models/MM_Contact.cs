@@ -15,10 +15,10 @@ namespace MealMonkey.Models
     public partial class MM_Contact
     {
         public int ContactId { get; set; }
-        public string Name_ { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
         public string Subject { get; set; }
-        public string Message_ { get; set; }
+        public string Message { get; set; }
         public Nullable<System.DateTime> CreatedDate { get; set; }
     }
 }
