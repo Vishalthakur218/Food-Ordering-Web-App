@@ -60,9 +60,9 @@
                         price = (decimal)items.Price;
                         totalPrice = (decimal)(price * item.Quantity);
                         total = total + totalPrice;
-                        <td>@price</td>
+                        <td>₹ @price</td>
 
-                        <td>@totalPrice</td>
+                        <td>₹ @totalPrice</td>
                         //ViewBag.TotalAmount = @totalPrice;
                     }
 
@@ -78,11 +78,11 @@
             </td>
         </tr>
 
-                }
+}
 
 
 
 </table>
-<h3>Total Amount To be Paid: @total</h3>
+<h3>Total Amount To be Paid:  ₹ @total</h3>
 @{ Session["Amount"] = total;}
     @Html.ActionLink("Place Order", "CartToOrder", "Products", new { @class = "btn btn-primary" })
