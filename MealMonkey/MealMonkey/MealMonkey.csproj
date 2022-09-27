@@ -242,6 +242,10 @@
     <Compile Include="ViewModel\ProdCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\hamburger.jpg" />
+    <Content Include="assets\mm1.jpg" />
+    <Content Include="assets\tablesetting.jpg" />
+    <Content Include="assets\tablesetting2.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

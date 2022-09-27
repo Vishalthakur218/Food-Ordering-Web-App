@@ -1,31 +1,147 @@
-﻿@{
+﻿
+
+@{
     ViewBag.Title = "Home Page";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        /*body {
+            font-family: "Times New Roman", Georgia, Serif;
+        }*/
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display";
+            letter-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <!-- Navbar (sit on top) -->
+    <!--<div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <a href="#home" class="w3-bar-item w3-button">Gourmet au Catering</a>-->
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <!--<div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>-->
+    <div class="btn">
+        <h4>Meal Monkey</h4><br />
+
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="btn">
+        <button class="button" onclick="myFunction()">Order Now</button>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+
+    <style>
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+
+            .button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+            }
+    </style>
+
+
+    <script>
+        function myFunction() {
+            location.replace("/Products")
+        }
+    </script>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="~/assets/mm1.jpg" alt="Hamburger Catering" width="1300" height="20">
+
+        @*<div class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h4 class="w3-xxlarge"> Meal Monkey</h4>
+            </div>*@
+
+
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:1100px">
+
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="~/assets/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+            </div>
+
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">About Meal Monkey</h1><br>
+                <h5 class="w3-center">Revolution of 2022</h5><br />
+                <p>
+                    Meal Monkey is a rapidly expanding firm that seeks to deliver food to your door step.
+                    began with the idea of an e-commerce website and is now serving thousands of satisfied consumers. The website is really simple to use; all you need to do is log in to begin placing orders.
+
+                </p>
+                <p> We are a group of recently graduated college students that are working nonstop, day and night, to serve you.  What are you waiting for? Place your order right away!</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Menu Section -->
+        <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Our Menu</h1><br>
+                <h4>Bread Basket</h4>
+                <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins (Rs.100)</p><br>
+
+                <h4>Healthy Oats</h4>
+                <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates (Rs.170)</p><br>
+
+                <h4>Belgian Waffle</h4>
+                <p class="w3-text-grey">Vanilla flavored batter with malted flour (Rs.110)</p><br>
+
+                <h4>Scrambled eggs all Day</h4>
+                <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions (Rs.130)</p><br>
+
+                <h4>Pancakes</h4>
+                <p class="w3-text-grey">With syrup, butter and lots of berries (Rs.140)</p>
+            </div>
+
+            <div class="w3-col l6 w3-padding-large">
+                <img src="~/assets/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- End page content -->
     </div>
-</div>
+
+
+
+</body>
+</html>
