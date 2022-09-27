@@ -198,6 +198,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CartModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ContactModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MM_Carts.cs">
@@ -207,7 +222,7 @@
       <DependentUpon>CartModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MM_Contact.cs">
-      <DependentUpon>CartModel.tt</DependentUpon>
+      <DependentUpon>ContactModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\MM_Orders.cs">
       <DependentUpon>CartModel.tt</DependentUpon>
@@ -242,10 +257,13 @@
     <Compile Include="ViewModel\ProdCartViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\feedback.jpg" />
     <Content Include="assets\hamburger.jpg" />
     <Content Include="assets\mm1.jpg" />
     <Content Include="assets\tablesetting.jpg" />
     <Content Include="assets\tablesetting2.jpg" />
+    <Content Include="assets\Thank-you-for-your-feedback.jpg" />
+    <Content Include="assets\top-feedback.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -263,6 +281,16 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CartModel.edmx</DependentUpon>
       <LastGenOutput>CartModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ContactModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContactModel.edmx</DependentUpon>
+      <LastGenOutput>ContactModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ContactModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ContactModel.edmx</DependentUpon>
+      <LastGenOutput>ContactModel.cs</LastGenOutput>
     </Content>
     <Content Include="Models\ProductModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -289,6 +317,13 @@
     </EntityDeploy>
     <Content Include="Models\CartModel.edmx.diagram">
       <DependentUpon>CartModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\ContactModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ContactModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ContactModel.edmx.diagram">
+      <DependentUpon>ContactModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -343,6 +378,7 @@
     <Content Include="Views\Products\CartTable.cshtml" />
     <Content Include="Views\Products\EditCart.cshtml" />
     <Content Include="Views\Products\OrderList.cshtml" />
+    <Content Include="Views\Home\ContactConfirm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
