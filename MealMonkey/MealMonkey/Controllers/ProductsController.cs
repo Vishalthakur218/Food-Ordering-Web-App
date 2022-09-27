@@ -80,6 +80,7 @@ namespace MealMonkey.Controllers
 
             return View(dy); 
         }
+        [Authorize]
         //Helping Methods
         public IEnumerable<MM_Carts> getCarts()
         {
@@ -90,6 +91,7 @@ namespace MealMonkey.Controllers
             return FilteredResult;
 
         }
+        [Authorize]
         public List<MM_Products> getProducts()
         {
             List<MM_Products> Products = db.MM_Products.ToList();
@@ -145,7 +147,7 @@ namespace MealMonkey.Controllers
             return RedirectToAction("CartTable");
             
         }
-
+        [Authorize]
         public ActionResult CartToOrder()
         {
 
@@ -189,6 +191,7 @@ namespace MealMonkey.Controllers
             //return View();
 
         }
+        [Authorize]
         public ActionResult OrderList()
         {
 
