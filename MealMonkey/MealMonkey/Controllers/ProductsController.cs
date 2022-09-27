@@ -22,10 +22,11 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index()
         {
-            TempData["UserId"] = 34; // Fake Hardcoded userid
+            int userId = 30;
+            TempData["UserId"] = userId; // Fake Hardcoded userid
             //TempData["UserId"] = User.Identity.GetUserId();
 
-            Session["UserId"] = 34;
+            Session["UserId"] = userId;
             return View(db.MM_Products.ToList());
 
         }
@@ -132,7 +133,7 @@ namespace MealMonkey.Controllers
                 
                 
                 mdb.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("CartTable");
             }
 
             return View(mM_Carts);
