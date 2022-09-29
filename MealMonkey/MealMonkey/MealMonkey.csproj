@@ -264,6 +264,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\feedback.jpg" />
+    <Content Include="assets\foodph.png" />
     <Content Include="assets\hamburger.jpg" />
     <Content Include="assets\mm1.jpg" />
     <Content Include="assets\tablesetting.jpg" />

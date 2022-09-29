@@ -23,8 +23,8 @@
         @foreach (var item in Model.Products)
         {
 
-            <div class="card" style="display: flex; flex-direction:column; justify-content: space-between" ;>
-                <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" style="width: 270px;" alt="...">
+            <div class="card" style="display: flex; padding:15px; flex-direction:column; justify-content: space-between" ;>
+                <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" style="width: 270px;" onerror=this.src="https://cdn-icons-png.flaticon.com/512/1377/1377194.png" alt="">
                 <div class="card-body" style="align-items:center">
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
                     <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
