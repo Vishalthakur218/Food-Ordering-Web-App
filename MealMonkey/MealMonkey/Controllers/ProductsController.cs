@@ -20,15 +20,27 @@ namespace MealMonkey.Controllers
 
 
         // GET: Products
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    int userId = 30;
+        //    TempData["UserId"] = userId; // Fake Hardcoded userid
+        //    //TempData["UserId"] = User.Identity.GetUserId();
+
+        //    Session["UserId"] = userId;
+        //    return View(db.MM_Products.ToList());
+
+        //}
+        
+        public ActionResult Index(int? id)
         {
-            int userId = 30;
-            TempData["UserId"] = userId; // Fake Hardcoded userid
-            //TempData["UserId"] = User.Identity.GetUserId();
-
-            Session["UserId"] = userId;
-            return View(db.MM_Products.ToList());
-
+            IEnumerable<MM_Products> products = db.MM_Products.ToList();
+            if (id == null)
+            {
+                return View(products);
+            }
+            
+            var res = from p in products where p.CategoryId == id select p;
+            return View(res);
         }
 
         [Authorize]
