@@ -22,9 +22,9 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index(int? id)
         {
-            int uid = 34;
-            TempData["UserId"] = uid;
-            Session["UserId"] = uid;
+            //int uid = 34;
+            //TempData["UserId"] = uid;
+            //Session["UserId"] = uid;
 
             var products = db.MM_Products.ToList();
             var categories = mdb.MM_Categories.ToList();
