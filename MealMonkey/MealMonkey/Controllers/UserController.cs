@@ -54,7 +54,7 @@ namespace MealMonkey.Controllers
                         Session["UserId"] = login_user.UserId;
                         //Console.WriteLine(Session["UserId"]);
                         Session["Username"] = login_user.Username.ToString();
-                        FormsAuthentication.SetAuthCookie(login_user.UserId.ToString(),true);
+                        FormsAuthentication.SetAuthCookie(login_user.Username,true);
                         return RedirectToAction("Index","Products");
 
                     }
