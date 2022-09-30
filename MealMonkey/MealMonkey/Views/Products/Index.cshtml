@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MealMonkey.Models.MM_Products>
+﻿@model MealMonkey.ViewModel.ProductViewModel
 
 @{
     ViewBag.Title = "Index";
@@ -6,33 +6,36 @@
 
 <h2>What You Want to Eat today</h2>
 
-@*<p>
-    @Html.ActionLink("Create New", "Create")
-</p>*@
+<div>
+    <div style="display: flex; flex-direction:row;">
+        <h4 style="color: red; padding-right: 30px;">@Html.ActionLink("All", "Index", new { id = 0 })</h4>
+        @foreach (var item in Model.Categories)
+        {
+
+            <h4 style="color: red; padding-right: 30px;">@Html.ActionLink(item.Name, "Index", new { id = item.CategoryId })</h4>
+        }
+    </div>
+    <hr />
+    <div style="display: flex; flex-wrap:wrap; width:fit-content">
 
 
-<div style="display: flex; flex-wrap:wrap; width:fit-content">
-    <!-- Content here -->
 
-    @foreach (var item in Model)
-    {
+        @foreach (var item in Model.Products)
+        {
 
-        <div class="card" style="display: flex; flex-direction:column; justify-content: space-between";>
-            <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" style="width: 270px;" alt="...">
-            <div class="card-body" style="align-items:center">
-                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-                <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+            <div class="card" style="display: flex; width:280px; height:350px; padding:10px; flex-direction:column; justify-content: space-between" ;>
+                <img src=" @Html.DisplayFor(modelItem => item.ImageUrl)" style="width: 270px; object-fit: contain;" onerror=this.src="https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg" alt="">
+                <div class="card-body" style="align-items:center">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
 
-                <p class="card-text">₹  @Html.DisplayFor(modelItem => item.Price)</p>
-                @Html.ActionLink("Order Now", "Details", new { id = item.ProductId })
+                    <p class="card-text">₹  @Html.DisplayFor(modelItem => item.Price)</p>
+                    @Html.ActionLink("Order Now", "Details", new { id = item.ProductId })
+                </div>
             </div>
-        </div>
 
-
-
-
-
-    }
+        }
+    </div>
 </div>
 
 

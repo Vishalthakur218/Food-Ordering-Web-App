@@ -20,15 +20,30 @@ namespace MealMonkey.Controllers
 
 
         // GET: Products
-        public ActionResult Index()
+        public ActionResult Index(int? id)
         {
-            int userId = 30;
-            TempData["UserId"] = userId; // Fake Hardcoded userid
-            //TempData["UserId"] = User.Identity.GetUserId();
+            int uid = 34;
+            TempData["UserId"] = uid;
+            Session["UserId"] = uid;
 
-            Session["UserId"] = userId;
-            return View(db.MM_Products.ToList());
+            var products = db.MM_Products.ToList();
+            var categories = mdb.MM_Categories.ToList();
+            ProductViewModel productViewModel = new ProductViewModel();
 
+            if (id == null || id == 0)
+            {
+                
+                productViewModel.Categories = categories;
+                productViewModel.Products = products;
+                return View(productViewModel);
+            }
+            
+            var res = from p in products where p.CategoryId == id select p;
+
+            productViewModel.Categories = categories;
+            productViewModel.Products = res;
+            
+            return View(productViewModel);
         }
 
         [Authorize]

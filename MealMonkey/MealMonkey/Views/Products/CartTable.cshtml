@@ -58,7 +58,7 @@
                     if (items.ProductId == item.ProductId)
                     {
                         price = (decimal)items.Price;
-                        totalPrice = (decimal)(price * item.Quantity);
+                        totalPrice = (decimal)(price * items.Quantity);
                         total = total + totalPrice;
                         <td>₹ @price</td>
 
