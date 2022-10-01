@@ -22,9 +22,9 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index(int? id)
         {
-            int uid = 34;
-            TempData["UserId"] = uid;
-            Session["UserId"] = uid;
+            //int uid = 34;
+            //TempData["UserId"] = uid;
+            //Session["UserId"] = uid;
 
             var products = db.MM_Products.ToList();
             var categories = mdb.MM_Categories.ToList();
@@ -153,6 +153,11 @@ namespace MealMonkey.Controllers
 
             return View(mM_Carts);
         }
+        //public ActionResult OrderSuccessful()
+        //{
+        //    return View();
+
+        //}
         [Authorize]
         // GET: Products/CartDelete/5
         public ActionResult CartDelete(int? id)
