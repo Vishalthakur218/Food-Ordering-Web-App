@@ -678,3 +678,231 @@ C:\Users\Shubhankar Shubham\Desktop\MM GIT\Food-Ordering-Web-App\MealMonkey\Meal
 C:\Users\Shubhankar Shubham\Desktop\MM GIT\Food-Ordering-Web-App\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.CopyComplete
 C:\Users\Shubhankar Shubham\Desktop\MM GIT\Food-Ordering-Web-App\MealMonkey\MealMonkey\obj\Debug\MealMonkey.dll
 C:\Users\Shubhankar Shubham\Desktop\MM GIT\Food-Ordering-Web-App\MealMonkey\MealMonkey\obj\Debug\MealMonkey.pdb
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\MealMonkey.dll.config
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\MealMonkey.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\MealMonkey.pdb
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csc.exe
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csc.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csc.rsp
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csi.exe
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csi.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\csi.rsp
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.AppContext.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Console.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.IO.Compression.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Net.Http.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.ValueTuple.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\vbc.exe
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\vbc.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\vbc.rsp
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Antlr3.Runtime.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\EntityFramework.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\EntityFramework.SqlServer.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Newtonsoft.Json.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Helpers.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Mvc.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Optimization.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Razor.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\WebGrease.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\xunit.abstractions.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\xunit.core.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\EntityFramework.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\EntityFramework.SqlServer.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Helpers.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Mvc.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Optimization.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.Razor.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Newtonsoft.Json.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Antlr3.Runtime.pdb
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\xunit.abstractions.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\xunit.core.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.AssemblyReference.cache
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.Migrations.Initial.resources
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.GenerateResource.cache
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.CoreCompileInputs.cache
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.CopyComplete
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.dll
+C:\Users\Shubhankar Shubham\Desktop\Login\MealMonkey\MealMonkey\obj\Debug\MealMonkey.pdb
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\MealMonkey.dll.config
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\MealMonkey.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\MealMonkey.pdb
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csc.exe
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csc.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csc.rsp
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csi.exe
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csi.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\csi.rsp
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.AppContext.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Console.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.IO.Compression.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Net.Http.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.ValueTuple.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\vbc.exe
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\vbc.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\vbc.rsp
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Antlr3.Runtime.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\EntityFramework.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\EntityFramework.SqlServer.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Newtonsoft.Json.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Owin.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Helpers.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Mvc.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Optimization.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Razor.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\WebGrease.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\xunit.abstractions.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\xunit.core.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\EntityFramework.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\EntityFramework.SqlServer.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Helpers.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Mvc.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Optimization.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.Razor.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Newtonsoft.Json.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Antlr3.Runtime.pdb
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\xunit.abstractions.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\xunit.core.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.AssemblyReference.cache
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.Migrations.Initial.resources
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.GenerateResource.cache
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.CoreCompileInputs.cache
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.csproj.CopyComplete
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.dll
+C:\Users\Shubhankar Shubham\Desktop\Shubham2 - Copy\MealMonkey\MealMonkey\obj\Debug\MealMonkey.pdb

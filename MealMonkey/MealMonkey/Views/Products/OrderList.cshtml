@@ -29,13 +29,20 @@
 
     @foreach (var items in Model)
     {
-        <tr>
-            <td>@items.OrderNo</td>
-            <td>@items.Quantity</td>
-            <td>@items.Count</td>
-            <td>@items.Status</td>
-            <td>₹ @items.PaymentId</td>
+<tr>
+    <td>@items.OrderNo</td>
+    <td>@items.Quantity</td>
+    <td>@items.Count</td>
+    <td>@items.Status</td>
+    <td>₹ @items.PaymentId</td>
 
-        </tr>
+    <td>
+        @*@Html.ActionLink("Edit", "EditCart", new { id = item.CartId }) |
+            @Html.ActionLink("Details", "CartDetails", new { id = item.CartId }) |*@
+        @Html.ActionLink("Details", "OrderDetails", new { id = items.OrderNo })
+    </td>
+
+</tr>
+
     }
 </table>
