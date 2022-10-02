@@ -23,9 +23,6 @@ namespace MealMonkey.Controllers
         // GET: Products
         public ActionResult Index(int? id)
         {
-            //int uid = 34;
-            //TempData["UserId"] = uid;
-            //Session["UserId"] = uid;
 
             var products = db.MM_Products.ToList();
             var categories = mdb.MM_Categories.ToList();
@@ -242,6 +239,29 @@ namespace MealMonkey.Controllers
             //var z = OrderList;
             return View(OrderList);
 
+        }
+        public ActionResult OrderDetails(string id)
+        {
+            int k = Convert.ToInt32(Session["UserId"]);
+            IEnumerable<MM_Orders> mM_Orders = mdb.MM_Orders.ToList();
+            IEnumerable<MM_Products> mM_Products = db.MM_Products.ToList();
+
+            IEnumerable<OrderDetailsViewModel> od = mM_Orders
+                    .Where(u => u.UserId == k && u.OrderNo == id)
+                    .Select(p => new OrderDetailsViewModel
+                    {
+
+                        ProductName = (string) mM_Products.Where(w => w.ProductId == p.ProductId)
+                                            .Select(l => l.Name).FirstOrDefault(),
+                        Quantity = (int)p.Quantity,
+                        Price = (decimal)mM_Products
+                                            .Where(w => w.ProductId == p.ProductId)
+                                            .Select(l => l.Price).FirstOrDefault()
+
+
+                    }).ToList();
+
+            return View(od);
         }
 
         protected override void Dispose(bool disposing)

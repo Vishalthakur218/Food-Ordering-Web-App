@@ -1,0 +1,35 @@
+﻿
+@model IEnumerable<MealMonkey.ViewModel.OrderDetailsViewModel>
+
+@{
+    ViewBag.Title = "OrdersDetails";
+}
+
+<h2>Orders</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Product
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Price
+        </th>
+
+    </tr>
+
+    @foreach (var items in Model)
+    {
+        <tr>
+            <td>@items.ProductName</td>
+            <td>@items.Quantity</td>
+            <td>@items.Price</td>
+        </tr>
+
+    }
+</table>
+
