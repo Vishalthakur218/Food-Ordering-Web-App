@@ -1,6 +1,7 @@
 ﻿using MealMonkey.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,7 +11,7 @@ namespace MealMonkey.Controllers
 {
     public class UserController : Controller
     {
-        
+
         // GET: User
         public ActionResult Index()
         {
@@ -22,6 +23,8 @@ namespace MealMonkey.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        
         public ActionResult Register(MM_User account)
         {
             if (ModelState.IsValid)
@@ -30,11 +33,17 @@ namespace MealMonkey.Controllers
                 {
                     adb.MM_User.Add(account);
                     adb.SaveChanges();
+                    Session["UserId"] = account.UserId;
+                    //Console.WriteLine(Session["UserId"]);
+                    Session["Username"] = account.Username.ToString();
+                    FormsAuthentication.SetAuthCookie(account.Username, true);
+                    //return RedirectToAction("Index", "Products");
                 }
-                ModelState.Clear();
+                // ModelState.Clear();
                 ViewBag.Message = account.Name + "Successfully Registered";
             }
-            return RedirectToAction("Login");
+            return RedirectToAction("Index", "Products");
+
         }
         public ActionResult Login()
         {
@@ -54,8 +63,8 @@ namespace MealMonkey.Controllers
                         Session["UserId"] = login_user.UserId;
                         //Console.WriteLine(Session["UserId"]);
                         Session["Username"] = login_user.Username.ToString();
-                        FormsAuthentication.SetAuthCookie(login_user.Username,true);
-                        return RedirectToAction("Index","Products");
+                        FormsAuthentication.SetAuthCookie(login_user.Username, true);
+                        return RedirectToAction("Index", "Products");
 
                     }
 
@@ -77,7 +86,7 @@ namespace MealMonkey.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
-            
+
             FormsAuthentication.SignOut();
             Session.RemoveAll();
             return RedirectToAction("Index", "Home");

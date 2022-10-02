@@ -12,6 +12,7 @@ namespace MealMonkey.Controllers
         Freshers_Training2022Entities dt = new Freshers_Training2022Entities();
         public ActionResult Index()
         {
+            
             return View();
         }
 
