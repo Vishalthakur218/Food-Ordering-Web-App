@@ -12,6 +12,7 @@ namespace MealMonkey.Models
         public int Count { get; set; }
         public int PaymentId { get; set; }
         public string Status { get; set; }
+        public DateTime Date { get; set; }
         //public int Amount { get; set; }
         //List<OrderRes> ListOrders = new List<OrderRes>();
     }

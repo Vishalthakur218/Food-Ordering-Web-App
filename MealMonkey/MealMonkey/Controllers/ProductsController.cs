@@ -200,17 +200,18 @@ namespace MealMonkey.Controllers
 
             IEnumerable <OrderRes> OrderList = Orders
                 .Where(u => u.UserId == k)
-                .GroupBy(o => new { o.OrderNo, o.UserId,o.PaymentId,o.Status})
+                .GroupBy(o => new { o.OrderNo, o.UserId,o.PaymentId,o.Status,o.OrderDate})
                 .Select(p => new OrderRes
                 {
                     OrderNo = p.Key.OrderNo,
                     Quantity = (int)p.Sum(t => t.Quantity),
                     Count = p.Count(),
                     PaymentId = (int)p.Key.PaymentId,
-                    Status = (string)p.Key.Status
+                    Status = (string)p.Key.Status,
+                    Date = (DateTime)p.Key.OrderDate
                     
 
-                }).ToList();
+                }).OrderByDescending(x => x.Date).ToList();
             
             //var z = OrderList;
             return View(OrderList);
